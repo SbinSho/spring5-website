@@ -10,30 +10,30 @@
 		<servlet-name>dispatcher</servlet-name>
 		<servlet-class>
 			org.springframework.web.servlet.DispatcherServlet
-		</servlet-class>
+		</servlet-class> <!-- DispatcherServlet을 dispatcher라는 이름으로 등록한다. -->
 		<init-param>
-			<param-name>contextClass</param-name>
+			<param-name>contextClass</param-name> <!-- contextClass 초기화 파라미터를 설정한다. -->
 			<param-value>
-				org.springframework.web.context.support.AnnotationConfigWebApplicationContext
-			</param-value>
+				org.springframework.web.context.support.AnnotationConfigWebApplicationContext 
+			</param-value> <!-- 자바 설정 사용시  AnnotationConfigWebApplicationContext 클래스 사용, 웹 애플리케이션 용 스프링 컨테이너 클래스 이다. -->
 		</init-param>
 		<init-param>
-			<param-name>contextConfigLocation</param-name>
+			<param-name>contextConfigLocation</param-name> <!-- contextConfigLocation 초기화 파라미터를 설정한다. -->
 			<param-value>
 				config.MvcConfig
 				config.ControllerConfig
-			</param-value>
+			</param-value> <!-- 스프링 설정 클래스 목록을 지정 -->
 		</init-param>
-		<load-on-startup>1</load-on-startup>
+		<load-on-startup>1</load-on-startup> <!-- 톰캣과 같은 컨테이너가 웹 어플리케이션을 구동할 때 이 서블릿을 함께 실행하도록 설정한다. -->
 	</servlet>
 
-	<servlet-mapping>
+	<servlet-mapping> <!-- 모든 요청을 DispathcerServlet이 처리하도록 서블릿 매핑을 지정한다. -->
 		<servlet-name>dispatcher</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
 	<filter>
-		<filter-name>encodingFilter</filter-name>
+		<filter-name>encodingFilter</filter-name> <!-- 서블릿 필터 등록 -->
 		<filter-class>
 			org.springframework.web.filter.CharacterEncodingFilter
 		</filter-class>
