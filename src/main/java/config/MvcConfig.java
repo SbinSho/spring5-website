@@ -3,6 +3,7 @@ package config;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewResolverRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
@@ -23,6 +24,13 @@ public class MvcConfig implements WebMvcConfigurer  {
 		
 	}
 
+	@Override
+	public void addResourceHandlers(ResourceHandlerRegistry registry) { //정적자원 처리를 위한 addResourceHandlers
+		registry.addResourceHandler("/resources/**") // /resources/ 이하로 오는 모든 요청을 resourceHandler에서 처리
+				.addResourceLocations("/resources/");    // 요청에 맵핑될 정적자원들의 위치 지정
+	}
 	
+	
+
 	
 }
