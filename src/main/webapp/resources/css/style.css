@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* 구글 폰트 사용 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap'); 
+body {
+	font-family: 'Nanum Gothic', sans-serif !important;
+	line-height: 1.7;
+}
+
+/* 상단 네비게이션바  */
+.nav-link {
+	color: black !important;
+}
+.nav-link:hover {
+	color: blue !important;
+}
+.nav-item {
+    padding-right: 7em;
+   	
+}
+
+.nav-img-logo {
+    width: 200px;
+    height: 55px;
+}
+
+	    
+
+/*메인페이지 중앙*/
+.index-mid-div {
+	background-color: #B0B0B0;
+}
+
+
+/* footer css */
+.footer-img-logo {
+    width: 230px;
+    height: 65px;
+}
+.footer-text{
+	font-size: 13px;
+}
+
+ .partner-row > .col > img {
+	      
+	background-color: gray;     
+ 	min-height: 100px;
+	max-height: 100px;
+	
+} 

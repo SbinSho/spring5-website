@@ -14,5 +14,16 @@ public class IndexController {
 		
 	}
 	
+	@GetMapping("/intro")
+	public String intro() {
+		return "intro";
+	}
+	
+	@GetMapping("/map")
+	public String map() {
+		return "map";
+	}
+		
+	
 	
 }
