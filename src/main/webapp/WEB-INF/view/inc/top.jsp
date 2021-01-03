@@ -19,10 +19,10 @@
     <title>SUNJIN E&C</title>
   </head>
 <body>
-
-	<!-- nav-bar start-->
 	
-	<nav class="navbar navbar-expand-lg navbar-light bg-white">
+	<!-- top nav-bar start-->
+	
+	<nav class="navbar navbar-expand-lg navbar-light bg-white top-custom">
 	<div class="container">
 	  <a class="navbar-brand mt-3" href="${pageContext.request.contextPath}"><img src="${pageContext.request.contextPath}/resources/image/footer_milton_roy_logo.png" class="nav-img-logo"></a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,18 +34,12 @@
 	      <li class="nav-item">
 	        <a class="nav-link" href="${ pageContext.request.contextPath }" class="text-dark">Home <span class="sr-only">(current)</span></a>
 	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="${ pageContext.request.contextPath }/intro">About</a>
+	      </li>	      
 	      <li class="nav-item dropdown">
 	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          	회사소개
-	        </a>
-	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-	          <a class="dropdown-item" href="${ pageContext.request.contextPath }/intro">인사말</a>
-	          <a class="dropdown-item" href="${ pageContext.request.contextPath }/map">오시는길</a>
-	        </div>
-	      </li>
-	      <li class="nav-item dropdown">
-	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          	제품소개
+	          	Product
 	        </a>
 	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 	          <a class="dropdown-item" href="#">SOLENOID PUMP</a>
@@ -57,10 +51,11 @@
 	        </div>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">고객지원</a>
+	        <a class="nav-link" href="#">Support</a>
 	      </li>
+
 	    </ul>
 	  </div>
 	  </div>
 	</nav>
-	<!-- nav-bar end-->
+	<!-- top nav-bar end-->

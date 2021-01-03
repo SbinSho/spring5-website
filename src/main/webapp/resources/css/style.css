@@ -1,20 +1,21 @@
 @charset "UTF-8";
 
 /* 구글 폰트 사용 */
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap'); 
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');  */
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&family=Roboto+Condensed:wght@700&display=swap');
 body {
-	font-family: 'Nanum Gothic', sans-serif !important;
+	font-family: 'Roboto Condensed', sans-serif;
 	line-height: 1.7;
 }
 
-/* 상단 네비게이션바  */
-.nav-link {
+/* top.jsp 네비게이션바  */
+.top-custom .nav-link {
 	color: black !important;
 }
-.nav-link:hover {
+.top-custom .nav-link:hover {
 	color: blue !important;
 }
-.nav-item {
+.top-custom .nav-item {
     padding-right: 7em;
    	
 }
@@ -24,15 +25,23 @@ body {
     height: 55px;
 }
 
-	    
 
-/*메인페이지 중앙*/
+/* index.jsp */
+.banner-div{
+	min-height: 200px;
+	
+	
+}
+
 .index-mid-div {
 	background-color: #B0B0B0;
 }
 
 
 /* footer css */
+footer {
+	font-family: 'Gothic A1', sans-serif !important;
+}
 .footer-img-logo {
     width: 230px;
     height: 65px;
@@ -47,4 +56,11 @@ body {
  	min-height: 100px;
 	max-height: 100px;
 	
-} 
+}
+
+
+/* intro.jsp */
+.intro-bg-cover {
+    background-image: url('/SUNJIN/resources/image/Milton Roy Blue Wave Banner.jpg');
+}
+
