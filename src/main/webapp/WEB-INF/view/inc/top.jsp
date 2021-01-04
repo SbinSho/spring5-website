@@ -7,24 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-	
+	<link rel="stylesheet" href="${ pageContext.request.contextPath}/resources/css/bootstrap.min.css">
+		
 	<!-- Font Awesome 5 -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 	
 	<!-- 사용자 정의 css -->
 	<link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet">
 	
-	
+	<!--네이버 지도 API -->
+	<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=hoe2dx88kt"></script>
     <title>SUNJIN E&C</title>
+	
   </head>
 <body>
-	
+
 	<!-- top nav-bar start-->
 	
 	<nav class="navbar navbar-expand-lg navbar-light bg-white top-custom">
 	<div class="container">
-	  <a class="navbar-brand mt-3" href="${pageContext.request.contextPath}"><img src="${pageContext.request.contextPath}/resources/image/footer_milton_roy_logo.png" class="nav-img-logo"></a>
+	  <a class="navbar-brand mt-3" href="${pageContext.request.contextPath}"><img src="${pageContext.request.contextPath}/resources/img/footer_milton_roy_logo.png" class="nav-img-logo"></a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>

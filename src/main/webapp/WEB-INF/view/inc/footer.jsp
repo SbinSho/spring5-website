@@ -9,7 +9,7 @@
 		  			<div class="row text-left">
 		  				<div class="col-lg-4 text-center">
 		  					<p class="mt-2">
-		  						<img src="${ pageContext.request.contextPath }/resources/image/footer_milton_roy_logo.png" class="footer-img-logo">
+		  						<img src="${ pageContext.request.contextPath }/resources/img/footer_milton_roy_logo.png" class="footer-img-logo">
 		  					</p>
 		  				</div>
 		  				<div class="col-lg-8 pt-1 text-center">
@@ -30,13 +30,13 @@
 						<div class="container">
 							<div class="row partner-row pb-3">
 								<div class="col">
-									<img src="${ pageContext.request.contextPath }/resources/image/EU-partner.jpg" class="d-block w-100 rounded-pill border border-dark">
+									<img src="${ pageContext.request.contextPath }/resources/img/EU-partner.jpg" class="d-block w-100 rounded-pill border border-dark">
 								</div>
 								<div class="col">
-									<img src="${ pageContext.request.contextPath }/resources/image/WILLIAMS_partner.gif" class="d-block w-100 rounded-pill border border-dark">
+									<img src="${ pageContext.request.contextPath }/resources/img/WILLIAMS_partner.gif" class="d-block w-100 rounded-pill border border-dark">
 								</div>
 								<div class="col">
-									<img src="${ pageContext.request.contextPath }/resources/image/LMI-MI_partner.jpg" class="d-block w-100 rounded-pill border border-dark">
+									<img src="${ pageContext.request.contextPath }/resources/img/LMI-MI_partner.jpg" class="d-block w-100 rounded-pill border border-dark">
 								</div>
 							</div>
 						</div>
@@ -49,9 +49,8 @@
 	<!-- footer end -->
 	
     <!-- Optional JavaScript; choose one of the two! -->
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<script src="${ pageContext.request.contextPath }/resources/js/jquery-3.5.1.min.js"></script>
+	<script src="${ pageContext.request.contextPath }/resources/js/bootstrap.min.js"></script>
 
 </body>
 </html>

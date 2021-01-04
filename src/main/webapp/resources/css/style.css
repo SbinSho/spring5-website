@@ -27,7 +27,7 @@ body {
 
 
 /* index.jsp */
-.banner-div{
+.banner-div>img{
 	min-height: 200px;
 	
 	
@@ -61,6 +61,8 @@ footer {
 
 /* intro.jsp */
 .intro-bg-cover {
-    background-image: url('/SUNJIN/resources/image/Milton Roy Blue Wave Banner.jpg');
+    background-image: url('/SUNJIN/resources/img/Milton Roy Blue Wave Banner.jpg');
 }
+
+
 
