@@ -1,40 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ include file="./inc/top.jsp" %>
+<%@ include file="./inc/banner.jsp" %>
 
 <!-- intro start -->
-<div class="intro-bg-cover" style="min-height: 300px;">
-  <div class="container">
-  	<div class="row pt-5">
-  		<div class="col text-center">
-	  		<h1 class="text-white">SUNJIN E&C</h1>
-	  		<br>
-	  		<h4 class="text-white">
-	  			Milton Roy manufactures controlled-volume metering pumps and equipment that deliver unsurpassed reliability and accuracy in critical chemical dosing applications.
-	  		</h4>
-  		</div>
-  	</div>
-  	<br>
-  	<div class="row pt-3">
-  		<div class="col text-center">
-  			<p class="d-inline-block"><button type="button" class="btn btn-outline-dark btn-lg text-white">Contact Us</button></p>
-  			<p class="d-inline-block"><button type="button" class="btn btn-outline-dark btn-lg text-white">Product</button></p>
-  			<p class="d-inline-block"><button type="button" class="btn btn-outline-dark btn-lg text-white">Find a Sales Rep</button></p>
-  		</div>
-  	</div>
-  </div>
-</div>
-
 <div class="container pt-5">
 	<div class="row m-auto">
 		<div class="col">
 			<div class="row">
-				<img alt="" src="${ pageContext.request.contextPath }/resources/img/img_int.PNG" class="mx-auto d-block img-fluid">		
+				<img alt="" src="${ pageContext.request.contextPath }/resources/img/img_intro.PNG" class="mx-auto d-block img-fluid">		
 			</div>
 			<div class="row mt-5">
 				<div class="container">
-				  <div style="background-color: #0064CD	;">
-				  	<h4 class="text-center text-white">InforMation</h4>
+				  <div style="background-color: #1478FF	;">
+				  	<h4 class="text-center text-white intro-info-medium">InforMation</h4>
 				  </div>
 				  <br>
 				  
@@ -93,9 +72,7 @@ var contentString = [
 
 var infowindow = new naver.maps.InfoWindow({
     content: contentString, // 컨텐츠 내용
-    borderColor: 'blue', // 테두리 색상
-    borderWidth: '2', // 테두리 굵기
-    maxWidth: '200' // 최대 너비
+	maxWidth: '200' // 최대 너비
 });
 
 infowindow.open(map, marker); // 마커 생성

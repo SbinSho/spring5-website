@@ -3,15 +3,15 @@ package config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import contorller.IndexController;
+import contorller.Page_MoveController;
 
 
 @Configuration
 public class ControllerConfig {
 
 	@Bean
-	public IndexController indexController() {
-		return new IndexController();
+	public Page_MoveController indexController() {
+		return new Page_MoveController();
 	}
 	
 }
