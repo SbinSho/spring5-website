@@ -28,5 +28,11 @@ public class Page_MoveController {
 		return "product";
 	}
 	
+	@GetMapping("/support")
+	public String support(@RequestParam("title") String title, Model model) {
+		model.addAttribute("title", title);
+		return "support";
+	}
+	
 	
 }

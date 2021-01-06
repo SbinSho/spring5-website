@@ -46,7 +46,7 @@
 	        <a class="nav-link" href="${ pageContext.request.contextPath }/product?title=product">Product</a>
 	      </li>	      
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Support</a>
+	        <a class="nav-link" href="${ pageContext.request.contextPath }/support?title=support">Support</a>
 	      </li>
 
 	    </ul>

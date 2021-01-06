@@ -7,7 +7,7 @@
 <!-- product start -->
 <div class="container pt-5">
 	<div class="row row-cols-1 row-cols-md-3">
-	  <div class="col mb-4">
+	  <div class="col-sm mb-4">
 	    <div class="card card-custom">
 	      <a href="https://www.miltonroy.com/en-kr/metering-pumps" target="_blank"><img src="${ pageContext.request.contextPath }/resources/img/MACROY Metering Pumps.jpg" class="card-img-top" alt="..."></a>
 	      <div class="card-body">
@@ -17,7 +17,7 @@
 	      </div>
 	    </div>
 	  </div>
-	  <div class="col mb-4">
+	  <div class="col-sm mb-4">
 	    <div class="card card-custom">
 	      <a href="https://www.miltonroy.com/en-us/process-pumps" target="_blank"><img src="${ pageContext.request.contextPath }/resources/img/Megaroyal Diaphragm Process Pump.jpg" class="card-img-top" alt="..."></a>
 	      <div class="card-body">
@@ -27,7 +27,7 @@
 	      </div>
 	    </div>
 	  </div>
-	  <div class="col mb-4">
+	  <div class="col-sm mb-4">
 	    <div class="card card-custom">
 	      <a href="https://www.miltonroy.com/en-kr/mixing" target="_blank"><img src="${ pageContext.request.contextPath }/resources/img/Side Entry Mixer.jpg" class="card-img-top" alt="..."></a>
 	      <div class="card-body">
@@ -36,7 +36,7 @@
 	      </div>
 	    </div>
 	  </div>
-	  <div class="col mb-4">
+	  <div class="col-sm mb-4">
 	    <div class="card card-custom">
 	      <a href="https://www.miltonroy.com/en-kr/streaming-current-detectors" target="_blank"><img src="${ pageContext.request.contextPath }/resources/img/Streaming Current Detectors  Monitoring and Electronics.png" class="card-img-top" alt="..."></a>
 	      <div class="card-body">
@@ -46,7 +46,7 @@
 	      </div>
 	    </div>
 	  </div>
-	  <div class="col mb-4">
+	  <div class="col-sm mb-4">
 	    <div class="card card-custom">
 	      <a href="https://www.miltonroy.com/en-kr/valves-and-accessories" target="_blank"><img src="${ pageContext.request.contextPath }/resources/img/Valves-Fam-1.jpg" class="card-img-top" alt="..."></a>
 	      <div class="card-body">
