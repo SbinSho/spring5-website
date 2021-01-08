@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+	
     <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="${ pageContext.request.contextPath}/resources/css/bootstrap.min.css">
 		
@@ -37,16 +37,16 @@
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav ml-auto">
 	      <li class="nav-item">
-	        <a class="nav-link" href="${ pageContext.request.contextPath }" class="text-dark">Home <span class="sr-only">(current)</span></a>
+	        <a class="nav-link top-link" href="${ pageContext.request.contextPath }">Home <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="${ pageContext.request.contextPath }/intro?title=about">About</a>
+	        <a class="nav-link top-link" href="${ pageContext.request.contextPath }/about?title=about">About</a>
 	      </li>	      
 	      <li class="nav-item">
-	        <a class="nav-link" href="${ pageContext.request.contextPath }/product?title=product">Product</a>
+	        <a class="nav-link top-link" href="${ pageContext.request.contextPath }/product?title=product">Product</a>
 	      </li>	      
 	      <li class="nav-item">
-	        <a class="nav-link" href="${ pageContext.request.contextPath }/support?title=support">Support</a>
+	        <a class="nav-link top-link" href="${ pageContext.request.contextPath }/support?title=support">Support</a>
 	      </li>
 
 	    </ul>

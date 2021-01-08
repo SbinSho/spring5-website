@@ -4,30 +4,31 @@
 <%@ include file="./inc/top.jsp" %>
 <%@ include file="./inc/banner.jsp" %>
 
+<!-- 2021.01.7 IE 11 문제 : col width값이 제대로 조정이 안되서 content가 포함이된 col의 부모 row에 w-100 class 추가함 해결완료 -->
 <!-- support start -->
-<div class="container pt-5">
+<div class="container pt-5 sup-div">
 	<div class="row">
-		<div class="col-sm-3">
-	  		<div class="row row-cols-1">
+		<div class="col-sm-4">
+	  		<div class="row row-cols-1 w-100">
 	  			<div class="col">
-					<h4 class="text-center text-dark intro-info-medium">Customer Support</h4>
-			  		<hr> 			
+					<h4 class="text-dark intro-info-medium">Customer Support</h4>
+			  		<hr style="border : 4px solid rgba(0,0,0,.1);"> 			
 	  			</div>
-			  	<div class="col ">
+			  	<div class="col">
 			  		<div class="mt-3">
-						<p><i class="fas fa-phone mr-2"></i><span class="sup-info">TEL : 052-267-8606</span></p>
+						<p><i class="fas fa-phone mr-2"></i><a href="tel:010-6276-0232" class="sup-a"><span class="sup-info">TEL : 052-267-8606</span></a></p>
 						<p><i class="fas fa-fax mr-2"></i><span class="sup-info">FAX : 052-267-8606</span></p>
-						<p><i class="fas fa-envelope mr-2"></i><span class="sup-info">E-MAIL : suho0232@gmail.com</span></p>
-						<p><span class="sup-korea-info">상담시간 : AM 09:00 ~ PM 06 : 00<br>전화주시면 친절히 상담해드립니다.<br>토요일, 일요일, 공휴일은 휴무입니다.</span></p>			
+						<p><i class="fas fa-envelope mr-2"></i><a href="mailto:tngh234@naver.com" class="sup-a"><span class="sup-info">E-MAIL : suho0232@gmail.com</span></a></p>
+						<p><span class="sup-korea-info ko-text">상담시간 : AM 09:00 ~ PM 06 : 00<br><span style="color : red;">토요일</span>, <span style="color : red;">일요일</span>, <span style="color : red;">공휴일</span>은 휴무입니다.</span></p>			
 			  		</div>
 			  	</div>		  						
 	  		</div>
   		</div>
-  		<div id="sup-col" class="col-sm">
-	  		<div class="row row-cols-1">
+  		<div id="sup-col" class="col-sm-8">
+	  		<div class="row row-cols-1 w-100">
 	  			<div class="col">
-					<h4 class="text-center text-dark intro-info-medium">Company Location</h4>
-			  		<hr> 			
+					<h4 class="text-dark intro-info-medium">Company Location</h4>
+			  		<hr style="border : 4px solid rgba(0,0,0,.1);"> 			
 	  			</div>
 			  	<div class="col">
 					<div id="location" class="container tab-pane active">
@@ -41,38 +42,17 @@
 			  	</div>		  						
 	  		</div>
   		</div>
+ 
   	</div>
-  	<br>
-  	<h4 class="text-center text-white intro-info-medium" style="background-color: #1E3269">Find a Sales Rep</h4>
-	<!-- Nav tabs -->
-	<ul class="nav nav-tabs" role="tablist">
-		<li class="nav-item">
-			<a class="nav-link active" data-toggle="tab" href="#korea_map">Korea</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" data-toggle="tab" href="#world_map">World Wide Map</a>
-		</li>
-	</ul>
-	<!-- Tab panes -->
-	<div class="tab-content">
-		<div id="korea_map" class="container tab-pane active">
-			<br>
-			<img alt="" src="${ pageContext.request.contextPath }/resources/img/find a sales Rep.jpg" class="d-block m-auto img-fluid">		
-		</div>
-		<div id="world_map" class="container tab-pane fade">
-			<br>
-			<img alt="" src="${ pageContext.request.contextPath }/resources/img/img_world_map.jpg" class="d-block m-auto img-fluid">
-		</div>
-	</div>
 </div>
-
+<br>
 <script>
 var map = new naver.maps.Map('map', {
     center: new naver.maps.LatLng(35.513526, 129.310214), // 지도의 중심 지정
     zoom: 18, //지도의 초기 줌 레벨
     minZoom: 7, //지도의 최소 줌 레벨
-    scrollWheel: false, // 마우스 휠을 통한 지도 확대, 축소 여부
-    draggable : false // 지도이동 여부
+    scrollWheel: true, // 마우스 휠을 통한 지도 확대, 축소 여부
+    draggable : true // 지도이동 여부
     
 });
 
@@ -82,15 +62,10 @@ var marker = new naver.maps.Marker({
 }); // 지도위 마커 등록
 
 var contentString = [
-    '<div class="iw_inner">',
-    '   <div class="container">',
-    '     <div class="row text-center">',
-    '       <div class="col">',
-    '         울산광역시 남구 두왕로106번길 5-20',
-    '       </div>',
-    '     </div>',
-    '   </div>',
+    '<div class="iw_inner text-center">',
+    '  <p>울산광역시 남구 두왕로106번길 5-20</p>',
     '</div>'
+    
 ].join(''); // 마커 정보창 컨텐츠 내용
 
 
@@ -141,10 +116,7 @@ $(window).resize(function (){ // px단위로 체크 후  id='sup-col' 위에 mar
 
 });
 
+
 </script>
 <!-- support end -->
-<hr>
-
-
-
 <%@ include file="./inc/footer.jsp" %>

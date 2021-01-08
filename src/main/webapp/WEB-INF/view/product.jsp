@@ -73,5 +73,4 @@ $('.card').mouseleave(function() {
 });
 
 </script>
-<hr>
 <%@ include file="./inc/footer.jsp" %>

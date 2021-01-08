@@ -15,23 +15,28 @@ public class Page_MoveController {
 		
 	}
 	
-	@GetMapping("/intro")
-	public String intro(@RequestParam("title") String title, Model model) {
+	@GetMapping("/about")
+	public String intro(@RequestParam(value="title", required=true)String title, Model model) {
 		
 		model.addAttribute("title", title);
-		return "intro";
+		return "about";
 	}
 	
 	@GetMapping("/product")
-	public String product(@RequestParam("title") String title, Model model) {
+	public String product(@RequestParam(value="title", required=true) String title, Model model) {
 		model.addAttribute("title", title);
 		return "product";
 	}
 	
 	@GetMapping("/support")
-	public String support(@RequestParam("title") String title, Model model) {
+	public String support(@RequestParam(value="title", required=true) String title, Model model) {
 		model.addAttribute("title", title);
 		return "support";
+	}
+	
+	@GetMapping("/error_page") // web.xml에 지정한 경로인 /error_page를 처리하기 위한 GetMapping
+	public String error() {
+		return "error_page";
 	}
 	
 	

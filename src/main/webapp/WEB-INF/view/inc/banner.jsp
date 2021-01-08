@@ -5,19 +5,16 @@
 
 <c:set var="title" value="${ title }"/>
 
-<div class="banner-bg-cover" style="min-height: 200px;">
+<div class="banner-bg-cover" style="min-height: 180px;">
   <div class="container">
   	<div class="row pt-5">
-  		<div class="col text-center">
+  		<div class="col">
   			<c:choose>
-  				<c:when test="${ title eq 'home' }">
-  					<h1 class="text-white banner-content-big">SUNJIN E&C</h1>
-  					<h4 class="text-white banner-content-medium">
-  						Milton Roy manufactures controlled-volume metering pumps and equipment that deliver unsurpassed reliability and accuracy in critical chemical dosing applications.
-  					</h4>
-  				</c:when>
   				<c:when test="${ title eq 'about' }">
   					<h1 class="text-white banner-content-big">About</h1>
+			  		<h4 class="text-white banner-content-medium">
+						SUN JIN ENGINEERING & CONSULTANT은 2009년 시작으로 2021년 현재까지 업계에서 몸담고 있습니다.
+					</h4>
   				</c:when>
   				<c:when test="${ title eq 'product' }">
   					<h1 class="text-white banner-content-big">Product</h1>
@@ -26,22 +23,22 @@
 			  		</h4>
   				</c:when>
   				<c:when test="${ title eq 'support' }">
-  					<h1 class="text-white">Support</h1>
+  					<h1 class="text-white banner-content-big">Support</h1>
+			  		<h4 class="text-white banner-content-medium">
+			  			구입 문의 및 A/S문의는 상담시간 내에 전화 및 메일을 주시면 친절히 상담해드리겠습니다.	
+			  		</h4>
   				</c:when>
+  				<c:otherwise>
+  					<script>
+  						location.href="${pageContext.request.contextPath}/error_page";
+  						
+  					</script>
+  				</c:otherwise>
   			</c:choose>
 	  		<br>
 	
   		</div>
   	</div>
-<%--   	<c:if test="${ title eq 'support' }"> --%>
-<!--   	<div class="row pt-3"> -->
-<!--   		<div class="col text-center m-auto"> -->
-<!--   			<p class="d-inline-block "><button type="button" id="banner-btn-tel" class="btn btn-info btn-lg mr-3 text-white" onclick="document.location.href='tel:010-6276-0232'">문의전화</button></p> -->
-<!--   			<p class="d-inline-block "><button type="button" id="banner-btn-lo" class="btn btn-info btn-lg mr-3 text-white" onclick="document.location.href='#location'">회사위치</button></p> -->
-<!--   			<p class="d-inline-block "><button type="button" id="banner-btn-qna" class="btn btn-info btn-lg text-white" onclick="document.location.href='tel:010-6276-0232'">질문과답변</button></p> -->
-<!--   		</div> -->
-<!--   	</div> -->
-<%--   	</c:if> --%>
   </div>
 </div>
 <script>
