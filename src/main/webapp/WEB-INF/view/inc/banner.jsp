@@ -13,14 +13,22 @@
   				<c:when test="${ title eq 'about' }">
   					<h1 class="text-white banner-content-big">About</h1>
 			  		<h4 class="text-white banner-content-medium">
-						SUN JIN ENGINEERING & CONSULTANT은 2009년 시작으로 2021년 현재까지 업계에서 몸담고 있습니다.
+						SUN JIN ENGINEERING & CONSULTANT
 					</h4>
   				</c:when>
   				<c:when test="${ title eq 'product' }">
   					<h1 class="text-white banner-content-big">Product</h1>
 			  		<h4 class="text-white banner-content-medium">
-			  			자세한 제품 정보는 아래의 이미지 클릭시 Milton Roy 공식 홈페이지로 이동해서 보실수 있습니다.	
+			  			자세한 제품 정보는 아래의 이미지 클릭시 확인 하실수 있습니다.	
 			  		</h4>
+			  		<br>
+			  		<div class="row pt-3">
+			  			<div class="col text-center m-auto">
+					  		<p class="d-inline-block"><button type="button" id="banner-btn-milton" class="btn btn-lg mr-3 banner-btn text-white border border-white" onclick="Product_List('Milton-Roy-div')">Milton Roy</button></p>
+					  		<p class="d-inline-block"><button type="button" id="banner-btn-lmi" class="btn btn-lg mr-3 banner-btn text-white border border-white" onclick="Product_List('LMI-div')">LMI</button></p>
+					  		<p class="d-inline-block"><button type="button" id="banner-btn-will" class="btn btn-lg banner-btn text-white border border-white" onclick="Product_List('will-div')">WILLIAMS</button></p>
+			  			</div>
+			  		</div>
   				</c:when>
   				<c:when test="${ title eq 'support' }">
   					<h1 class="text-white banner-content-big">Support</h1>
@@ -31,7 +39,6 @@
   				<c:otherwise>
   					<script>
   						location.href="${pageContext.request.contextPath}/error_page";
-  						
   					</script>
   				</c:otherwise>
   			</c:choose>
@@ -42,19 +49,29 @@
   </div>
 </div>
 <script>
+$(document).ready(function() {
+	  var width_size = window.outerWidth;
+	  
+	  if (width_size <= 386) {
+		  document.getElementById("banner-btn-milton").className = "btn btn-sm banner-btn text-white border border-white mr-3";
+		  document.getElementById("banner-btn-lmi").className = "btn btn-sm banner-btn text-white border border-white mr-3";
+		  document.getElementById("banner-btn-will").className = "btn btn-sm banner-btn text-white border border-white";
+	  }	
+});
+
 //600px 이하로 떨어질시에 button 크기 사이즈 조정을 위한 resize 구문
 $(window).resize(function (){
 	  var width_size = window.outerWidth;
 	  
-	  if (width_size > 300 && width_size < 500) {
-		  document.getElementById("banner-btn-tel").className = 'btn btn-info btn-default btn-xs mr-2';
-		  document.getElementById("banner-btn-lo").className = 'btn btn-info btn-default btn-xs mr-2';
-		  document.getElementById("banner-btn-qna").className = 'btn btn-info btn-default btn-xs';
+	  if (width_size <= 386) {
+		  document.getElementById("banner-btn-milton").className = "btn btn-sm banner-btn text-white border border-white mr-3";
+		  document.getElementById("banner-btn-lmi").className = "btn btn-sm banner-btn text-white border border-white mr-3";
+		  document.getElementById("banner-btn-will").className = "btn btn-sm banner-btn text-white border border-white";
 	  }
-	  if (width_size < 300) {
-		  document.getElementById("banner-btn-tel").className = 'btn btn-info btn-default btn-xs mr-2';
-		  document.getElementById("banner-btn-lo").className = 'btn btn-info btn-default btn-xs';
-		  document.getElementById("banner-btn-qna").className = 'btn btn-info btn-default btn-xs';
+	  else {
+		  document.getElementById("banner-btn-milton").className = "btn btn-lg banner-btn text-white border border-white mr-3";
+		  document.getElementById("banner-btn-lmi").className = "btn btn-lg banner-btn text-white border border-white mr-3";
+		  document.getElementById("banner-btn-will").className = "btn btn-lg banner-btn text-white border border-white";		  
 	  }
-	})
+});
 </script>

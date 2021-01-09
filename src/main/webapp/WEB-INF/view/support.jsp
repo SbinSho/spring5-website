@@ -6,13 +6,13 @@
 
 <!-- 2021.01.7 IE 11 문제 : col width값이 제대로 조정이 안되서 content가 포함이된 col의 부모 row에 w-100 class 추가함 해결완료 -->
 <!-- support start -->
-<div class="container pt-5 sup-div">
+<div class="container pt-5 sup-div animation-container">
 	<div class="row">
 		<div class="col-sm-4">
 	  		<div class="row row-cols-1 w-100">
 	  			<div class="col">
 					<h4 class="text-dark intro-info-medium">Customer Support</h4>
-			  		<hr style="border : 4px solid rgba(0,0,0,.1);"> 			
+			  		<hr class="hr-line"> 			
 	  			</div>
 			  	<div class="col">
 			  		<div class="mt-3">
@@ -28,7 +28,7 @@
 	  		<div class="row row-cols-1 w-100">
 	  			<div class="col">
 					<h4 class="text-dark intro-info-medium">Company Location</h4>
-			  		<hr style="border : 4px solid rgba(0,0,0,.1);"> 			
+			  		<hr class="hr-line"> 			
 	  			</div>
 			  	<div class="col">
 					<div id="location" class="container tab-pane active">
@@ -51,8 +51,8 @@ var map = new naver.maps.Map('map', {
     center: new naver.maps.LatLng(35.513526, 129.310214), // 지도의 중심 지정
     zoom: 18, //지도의 초기 줌 레벨
     minZoom: 7, //지도의 최소 줌 레벨
-    scrollWheel: true, // 마우스 휠을 통한 지도 확대, 축소 여부
-    draggable : true // 지도이동 여부
+    scrollWheel: false, // 마우스 휠을 통한 지도 확대, 축소 여부
+    draggable : false // 지도이동 여부
     
 });
 
@@ -86,7 +86,7 @@ naver.maps.Event.addListener(marker, "click", function(e) { // 마커 클릭시 
 
 function location_NaverMap() {
 	var openNewWindow = window.open("about:blank");
-	openNewWindow.location.href='https://map.naver.com/v5/search/%EC%84%A0%EC%A7%84%EC%9D%B4%EC%97%94%EC%94%A8/place/32180016?c=14394686.7054445,4233895.5909595,19,0,0,0,dh&placePath=%3F%2526';
+	openNewWindow.location.href='https://m.map.naver.com/directions/?ename=%EC%84%A0%EC%A7%84%EC%9D%B4%EC%97%94%EC%94%A8&ex=129.3102058&ey=35.5135426&edid=32180016&incomeUrl=https%3A%2F%2Fm.map.naver.com%2Fsearch2%2Fsite.naver%3Fquery%3D%25EC%2584%25A0%25EC%25A7%2584%25EC%259D%25B4%25EC%2597%2594%25EC%2594%25A8%26sm%3Dhty%26style%3Dv5%26code%3D32180016#/main/null/%25EC%2584%25A0%25EC%25A7%2584%25EC%259D%25B4%25EC%2597%2594%25EC%2594%25A8,129.3102058,35.5135426,,,false,32180016';
 	
 
 }
