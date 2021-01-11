@@ -72,7 +72,7 @@ body {
 
 /* banner.jsp */
 .banner-bg-cover {
-    background-image: url('/SUNJIN/resources/img/milton-roy-banner.jpg');
+    background-image: url('../img/milton-roy-banner.jpg');
     background-position: center 10%;
     background-repeat: no-repeat;
     background-size: cover;
