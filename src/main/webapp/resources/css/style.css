@@ -45,6 +45,7 @@ body {
 	min-height: 150px;
 }
 
+
 /* footer css */
 .footer-img-logo {
     width: 230px;
@@ -68,6 +69,7 @@ body {
 }
 
 
+
 /* banner.jsp */
 .banner-bg-cover {
     background-image: url('/SUNJIN/resources/img/milton-roy-banner.jpg');
@@ -89,11 +91,13 @@ body {
 	margin-left: 2.1em;
 }
 
+
 /* product */
 .card-body {
 	    border-top: 1px solid rgba(34,36,38,.1);
 }
 .card-custom{
+	cursor: pointer;
 	box-shadow: 10px 10px 5px grey;
 }
 .card-custom-milton {
@@ -115,63 +119,17 @@ body {
 	height: 300px;
 }
 
-/* animation-container */
-.animation-container{
-    animation: fadein 3s;
-    -moz-animation: fadein 3s; /* Firefox */
-    -webkit-animation: fadein 3s; /* Safari and Chrome */
-    -o-animation: fadein 3s; /* Opera */
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
-}
 
 /* supprot */
 .sup-a:link { color: black; text-decoration: none;}
 .sup-a:hover { color: black; text-decoration: underline;}
 
+
 /* about */
 #about-img {
 	height: 500px;
 }
+
 
 /* 반응형 구문 */
 @media (max-width: 330px){
@@ -182,20 +140,6 @@ body {
 	
 	.footer-partner-img {
 		height: 50px;
-	}
-}
-
-
-/* card 크기 조절 */
-@media (min-width : 500px) and (max-width : 575px ) {
-	.card-custom-milton {
-		height: 690px;
-	}
-}
-
-@media (min-width : 398px) and ( max-width : 500px ) {
-	.card-custom-milton {
-		height: 635px;
 	}
 }
 
@@ -271,5 +215,64 @@ body {
 	}
 }
 
+/* card 크기 조절 */
+/* @media (min-width : 500px) and (max-width : 575px ) { */
+/* 	.card-custom-milton { */
+/* 		height: 690px; */
+/* 	} */
+/* } */
 
+/* @media (min-width : 398px) and ( max-width : 500px ) { */
+/* 	.card-custom-milton { */
+/* 		height: 635px; */
+/* 	} */
+/* } */
 
+/* animation-container */
+.animation-container{
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}

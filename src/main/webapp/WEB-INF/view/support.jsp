@@ -34,18 +34,12 @@
 					<div id="location" class="container tab-pane active">
 						<div id="map" style="width: 100%; height: 300px;"></div>
 					</div>
-					<div class="text-right mr-3 mt-3">
-						<span class="location-info-medium">
-							<button type="button" id="banner-btn-qna" class="btn btn-info btn-xs text-white" onclick="location_NaverMap()">지도 보기</button>
-						</span>
-					</div>
 			  	</div>		  						
 	  		</div>
   		</div>
- 
   	</div>
 </div>
-<br>
+<br><br>
 <script>
 var map = new naver.maps.Map('map', {
     center: new naver.maps.LatLng(35.513526, 129.310214), // 지도의 중심 지정

@@ -18,6 +18,15 @@
 	<!--네이버 지도 API -->
 	<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=hoe2dx88kt"></script>
 	
+	<!-- favicons -->
+	<link rel="icon" type="image/png" sizes="16x16" href="${ pageContext.request.contextPath}/resources/img/favicons/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="${ pageContext.request.contextPath}/resources/img/favicons/favicon-32x32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="${ pageContext.request.contextPath}/resources/img/favicons/apple-icon-180x180.png">
+	<link rel="manifest" href="${ pageContext.request.contextPath}/resources/img/favicons/manifest.json">
+	<meta name="msapplication-TileColor" content="${ pageContext.request.contextPath}/resources/img/favicons#ffffff">
+	<meta name="msapplication-TileImage" content="${ pageContext.request.contextPath}/resources/img/favicons/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	
     <title>SUNJIN E&C</title>
 	
   </head>
