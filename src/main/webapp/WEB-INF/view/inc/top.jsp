@@ -39,14 +39,14 @@
 	
 	<nav class="navbar navbar-expand-lg navbar-light bg-white top-custom">
 	<div class="container">
-		<a class="navbar-brand mt-3" href="${pageContext.request.contextPath}"><img src="${pageContext.request.contextPath}/resources/img/img_logo.PNG" class="nav-img-logo"></a>
+		<a class="navbar-brand mt-3" href="${pageContext.request.contextPath}/"><img src="${pageContext.request.contextPath}/resources/img/img_logo.PNG" class="nav-img-logo"></a>
 	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	   		<span style="font-size : 14px;">Menu</span><span class="navbar-toggler-icon"></span>
 	   	</button>
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav ml-auto">
 	      <li class="nav-item">
-	        <a class="nav-link top-link" href="${ pageContext.request.contextPath }">Home <span class="sr-only">(current)</span></a>
+	        <a class="nav-link top-link" href="${ pageContext.request.contextPath }/">Home <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link top-link" href="${ pageContext.request.contextPath }/about?title=about">About</a>

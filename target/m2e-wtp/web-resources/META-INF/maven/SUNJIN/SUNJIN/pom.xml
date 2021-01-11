@@ -58,13 +58,9 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
-					<encoding>utf-8</encoding>
+					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
-	
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	 </properties>
 </project>
