@@ -5,9 +5,23 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge; chrome=1" />
+    
+	<!-- meta 태그 -->
+	<meta name="description" content="약품정량펌프, 약품주입설비, 수처리기기 MILTON ROY 한국공식대리점">
+	<meta name="keywords" content="약품정량펌프, 약품주입설비, 수처리기기 MILTON ROY 한국공식대리점">
+	<meta name="title" content="선진이엔씨">
+	
+	<!-- og 태그 -->
+	<meta property="og:title" content="MILTON ROY 한국공식대리점 선진이엔씨">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://211.210.63.171:8080/SUNJIN/">
+	<meta property="og:description" content="약품정량펌프, 약품주입설비, 수처리기기 MILTON ROY 한국공식대리점">
+	<meta property="og:image" content="http://http://211.210.63.171/:8080/resources/img/img_logo.PNG">
 	
     <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="${ pageContext.request.contextPath}/resources/css/bootstrap.min.css">
+	
 		
 	<!-- Font Awesome 5 -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
