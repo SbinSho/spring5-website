@@ -15,9 +15,9 @@
 	<!-- og 태그 -->
 	<meta property="og:title" content="MILTON ROY 한국공식대리점 선진이엔씨">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://211.210.63.171:8080/SUNJIN/">
+	<meta property="og:url" content="http://sunjinenc.co.kr">
 	<meta property="og:description" content="약품정량펌프, 약품주입설비, 수처리기기 MILTON ROY 한국공식대리점">
-	<meta property="og:image" content="http://http://211.210.63.171/:8080/resources/img/img_logo.PNG">
+	<meta property="og:image" content="http://sunjinenc.co.kr/resources/img/img_logo.PNG">
 	
     <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="${ pageContext.request.contextPath}/resources/css/bootstrap.min.css">

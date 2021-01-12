@@ -8,10 +8,9 @@
 		  		<div id="footer-info-col"class="col-md-9 pt-4">
 		  			<div class="row text-left">
 		  				<div class="col text-center">
-		  					<p class="footer-text ko-text">사업자등록번호: 6276-0232</p>
 		  					<p class="footer-text ko-text">주소 : 울산광역시 남구 두왕로106번길 5-20</p>
 		  					<p class="footer-text ko-text">전화 : 052-267-8606&nbsp;&nbsp;&nbsp;문의시간 : 09:00 ~ 18:00 (월~금)</p>
-		  					<p class="footer-text ko-text">대표자 : 박남수&nbsp;&nbsp;&nbsp;팩스: 052-267-8606&nbsp;&nbsp;&nbsp;이메일 : suho0232@gmail.com</p>
+		  					<p class="footer-text ko-text">대표자 : 박남수&nbsp;&nbsp;&nbsp;팩스: 052-970-1016&nbsp;&nbsp;&nbsp;이메일 : sj8606@gmail.com</p>
 		  					<p class="footer-text ko-text">Copyright ⓒ 2020 SUNJIN E&C. All rights reserved.</p>
 		  				</div>
 		  			</div>
