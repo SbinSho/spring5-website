@@ -19,6 +19,12 @@
 	<meta property="og:description" content="약품정량펌프, 약품주입설비, 수처리기기 MILTON ROY 한국공식대리점">
 	<meta property="og:image" content="http://www.sunjinenc.co.kr/resources/img/img_logo.PNG">
 	
+	<!-- 구글 검색 등록 -->
+	<meta name="google-site-verification" content="ZlgfGzfO34427QmWI4J6oJdadxmxLYyVncE2ECh6hRE" />
+	<!-- 네이버 검색 등록 -->
+	<meta name="naver-site-verification" content="23a7b1a987871b147b9d2fd128377c8be70e71eb"/>
+	
+	
     <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="${ pageContext.request.contextPath}/resources/css/bootstrap.min.css">
 	
