@@ -17,15 +17,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge; chrome=1" />
     
 	<!-- meta 태그 -->
-	<meta name="description" content="약품정량펌프, 약품주입설비, 수처리기기 MILTON ROY 한국공식대리점">
-	<meta name="keywords" content="약품정량펌프, 약품주입설비, 수처리기기 MILTON ROY 한국공식대리점">
-	<meta name="title" content="선진이엔씨">
+	<meta name="description" content="밀튼로이 펌프, Milton Roy Pump, 약품정량펌프, 약품주입설비, 수처리기기 , MILTON ROY 한국공식대리점">
+	<meta name="keywords" content="밀튼로이 펌프, Milton Roy Pump, 약품정량펌프, 약품주입설비, 수처리기기 , MILTON ROY 한국공식대리점">
+	<meta name="title" content="MILTON ROY 한국공식대리점, 선진이엔씨">
 	
 	<!-- og 태그 -->
-	<meta property="og:title" content="MILTON ROY 한국공식대리점 선진이엔씨">
+	<meta property="og:title" content="MILTON ROY 한국공식대리점, 선진이엔씨">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="http://www.sunjinenc.co.kr">
-	<meta property="og:description" content="약품정량펌프, 약품주입설비, 수처리기기 MILTON ROY 한국공식대리점">
+	<meta property="og:description" content="밀튼로이 펌프, Milton Roy Pump, 약품정량펌프, 약품주입설비, 수처리기기, MILTON ROY 한국공식대리점">
 	<meta property="og:image" content="http://www.sunjinenc.co.kr/resources/img/img_logo.PNG">
 	
 	<!-- 구글 검색 등록 -->
@@ -33,6 +33,8 @@
 	<!-- 네이버 검색 등록 -->
 	<meta name="naver-site-verification" content="23a7b1a987871b147b9d2fd128377c8be70e71eb"/>
 	
+	<!-- 웹 사이트 대표 주소 -->
+	<link rel="canonical" href="http://www.sunjinenc.co.kr">
 	
     <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="${ pageContext.request.contextPath}/resources/css/bootstrap.min.css">
