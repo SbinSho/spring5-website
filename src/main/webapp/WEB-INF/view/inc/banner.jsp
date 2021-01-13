@@ -53,9 +53,15 @@ $(document).ready(function() {
 	  var width_size = window.outerWidth;
 	  
 	  if (width_size <= 386) {
-		  document.getElementById("banner-btn-milton").className = "btn btn-sm banner-btn text-white border border-white mr-3";
-		  document.getElementById("banner-btn-lmi").className = "btn btn-sm banner-btn text-white border border-white mr-3";
-		  document.getElementById("banner-btn-will").className = "btn btn-sm banner-btn text-white border border-white";
+		  $("#banner-btn-milton").attr('class','btn btn-sm banner-btn text-white border border-white mr-3');
+		  
+		  $("#banner-btn-lmi").attr('class','btn btn-sm banner-btn text-white border border-white mr-3');
+		 
+		  $("#banner-btn-will").attr('class','btn btn-sm banner-btn text-white border border-white');
+		  
+// 		  document.getElementById("banner-btn-milton").className = "btn btn-sm banner-btn text-white border border-white mr-3";
+// 		  document.getElementById("banner-btn-lmi").className = "btn btn-sm banner-btn text-white border border-white mr-3";
+// 		  document.getElementById("banner-btn-will").className = "btn btn-sm banner-btn text-white border border-white";
 	  }	
 });
 
@@ -64,14 +70,29 @@ $(window).resize(function (){
 	  var width_size = window.outerWidth;
 	  
 	  if (width_size <= 386) {
-		  document.getElementById("banner-btn-milton").className = "btn btn-sm banner-btn text-white border border-white mr-3";
-		  document.getElementById("banner-btn-lmi").className = "btn btn-sm banner-btn text-white border border-white mr-3";
-		  document.getElementById("banner-btn-will").className = "btn btn-sm banner-btn text-white border border-white";
+		  $("#banner-btn-milton").attr('class','btn btn-sm banner-btn text-white border border-white mr-3');
+		  
+		  $("#banner-btn-lmi").attr('class','btn btn-sm banner-btn text-white border border-white mr-3');
+		 
+		  $("#banner-btn-will").attr('class','btn btn-sm banner-btn text-white border border-white');
+		  
+		  // className 오류로 jquery 구문으로 변경
+// 		  document.getElementById("banner-btn-milton").className = "btn btn-sm banner-btn text-white border border-white mr-3";
+// 		  document.getElementById("banner-btn-lmi").className = "btn btn-sm banner-btn text-white border border-white mr-3";
+// 		  document.getElementById("banner-btn-will").className = "btn btn-sm banner-btn text-white border border-white";
+
 	  }
 	  else {
-		  document.getElementById("banner-btn-milton").className = "btn btn-lg banner-btn text-white border border-white mr-3";
-		  document.getElementById("banner-btn-lmi").className = "btn btn-lg banner-btn text-white border border-white mr-3";
-		  document.getElementById("banner-btn-will").className = "btn btn-lg banner-btn text-white border border-white";		  
+		  $("#banner-btn-milton").attr('class','btn btn-lg banner-btn text-white border border-white mr-3');
+		  
+		  $("#banner-btn-lmi").attr('class','btn btn-lg banner-btn text-white border border-white mr-3');
+		 
+		  $("#banner-btn-will").attr('class','btn btn-lg banner-btn text-white border border-white');
+		  
+		  // className 오류로 jquery 구문으로 변경
+// 		  document.getElementById("banner-btn-milton").className = "btn btn-lg banner-btn text-white border border-white mr-3";
+// 		  document.getElementById("banner-btn-lmi").className = "btn btn-lg banner-btn text-white border border-white mr-3";
+// 		  document.getElementById("banner-btn-will").className = "btn btn-lg banner-btn text-white border border-white";		  
 	  }
 });
 </script>

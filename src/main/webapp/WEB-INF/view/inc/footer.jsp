@@ -1,8 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
+   	<br>
+  	<br>
 	<!-- footer start -->
-	<footer style="background-color: #c9c6ca;">
+	<footer class="mt-auto" style="background-color: #c9c6ca;">
 	  <div class="container">
 	  		<div class="row">
 		  		<div id="footer-info-col"class="col-md-9 pt-4">

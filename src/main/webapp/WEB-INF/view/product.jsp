@@ -209,6 +209,5 @@ function Product_List(title) {
 }
 
 
-
 </script>
 <%@ include file="./inc/footer.jsp" %>

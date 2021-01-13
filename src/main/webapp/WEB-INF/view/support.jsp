@@ -8,7 +8,7 @@
 <!-- support start -->
 <div class="container pt-5 sup-div animation-container">
 	<div class="row">
-		<div class="col-sm-4">
+		<div class="col-lg-4">
 	  		<div class="row row-cols-1 w-100">
 	  			<div class="col">
 					<h4 class="text-dark intro-info-medium">Customer Support</h4>
@@ -24,7 +24,7 @@
 			  	</div>		  						
 	  		</div>
   		</div>
-  		<div id="sup-col" class="col-sm-8">
+  		<div id="sup-col" class="col-lg-8">
 	  		<div class="row row-cols-1 w-100">
 	  			<div class="col">
 					<h4 class="text-dark intro-info-medium">Company Location</h4>
@@ -39,7 +39,6 @@
   		</div>
   	</div>
 </div>
-<br><br>
 <script>
 var map = new naver.maps.Map('map', {
     center: new naver.maps.LatLng(35.513526, 129.310214), // 지도의 중심 지정
@@ -109,8 +108,6 @@ $(window).resize(function (){ // px단위로 체크 후  id='sup-col' 위에 mar
 	  }
 
 });
-
-
 </script>
 <!-- support end -->
 <%@ include file="./inc/footer.jsp" %>

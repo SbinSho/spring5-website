@@ -11,13 +11,13 @@
 			<h2 class="banner-content-big">Main Product</h2>
 			<hr class="hr-line">
 			<div class="row">
-		        <div class="col-sm-4">
+		        <div class="col-md-4">
 		            <img class="rounded-circle border border-dark" src="${ pageContext.request.contextPath }/resources/img/PDx2-600.jpg" width="140" height="140">
 		            <h3>PD Series</h3>
 		            <p>Introducing the new PD Series Chemical Metering Pump<br><br>designed specifically for industrial water treatment applications. The new PD Series metering pump adds advanced technology to one of LMI’s most popular pump. Available in two models, Manual and Enhanced, the PD Series pump fits seamlessly into your water treatment process while adding convenience and value to your application.</p>
 		            <p><a class="btn btn-secondary bg-dark" href="https://www.lmipumps.com/en-kr/chemical-metering-pumps/pd-series-chemical-metering-pump" target="_blank" role="button">View details »</a></p>
 		        </div>
-		        <div class="col-sm-4">
+		        <div class="col-md-4">
 		            <img class="rounded-circle border border-dark" src="${pageContext.request.contextPath}/resources/img/mRoy Series metering pumps.jpg" alt="Generic placeholder image" width="140" height="140">
 		            <h3>mROY® Series</h3>
 		            <p><span style="color: #1169af">Maximize uptime with unrivaled accuracy and reliability</span><br><br>
@@ -25,7 +25,7 @@
 		            mROY series metering pumps control chemical dosing with unmatched accuracy and reliability. This dosing pump is durable, compact in design and enables metering of some of the harshest chemicals with repetitive steady-state accuracy at a ±1% range.</p>
 		            <p><a class="btn btn-secondary bg-dark" href="https://www.miltonroy.com/en-kr/metering-pumps/mroy-series-metering-pumps" target="_blank" role="button">View details »</a></p>
 		        </div>
-		         <div class="col-sm-4">
+		         <div class="col-md-4">
 		            <img class="rounded-circle border border-dark" src="${pageContext.request.contextPath}/resources/img/img_AIR_PUMP.gif" alt="Generic placeholder image" width="140" height="140">
 		            <h3>V Series Plunger Pumps</h3>
 		            <p><span style="font-weight: bold;">The “V” Series pump is a range of compact, self-contained, pneumatic metering pumps suitable for injecting a wide variety of chemicals</span><br><br>

@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib  prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
   <head>
@@ -29,7 +30,7 @@
 	<meta property="og:image" content="http://www.sunjinenc.co.kr/resources/img/img_logo.PNG">
 	
 	<!-- 구글 검색 등록 -->
-	<meta name="google-site-verification" content="ZlgfGzfO34427QmWI4J6oJdadxmxLYyVncE2ECh6hRE" />
+	<meta name="google-site-verification" content="ZlgfGzfO34427QmWI4J6oJdadxmxLYyVncE2ECh6hRE"/>
 	<!-- 네이버 검색 등록 -->
 	<meta name="naver-site-verification" content="23a7b1a987871b147b9d2fd128377c8be70e71eb"/>
 	
@@ -39,15 +40,11 @@
     <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="${ pageContext.request.contextPath}/resources/css/bootstrap.min.css">
 	
-		
 	<!-- Font Awesome 5 -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 	
 	<!-- 사용자 정의 css -->
 	<link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet">
-	
-	<!--네이버 지도 API -->
-	<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=hoe2dx88kt"></script>
 	
 	<!-- favicons -->
 	<link rel="icon" type="image/png" sizes="16x16" href="${ pageContext.request.contextPath}/resources/img/favicons/favicon-16x16.png">
@@ -58,10 +55,26 @@
 	<meta name="msapplication-TileImage" content="${ pageContext.request.contextPath}/resources/img/favicons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	
-    <title>선진이엔씨</title>
+	<c:set var="title" value="${ title }"/>
+	<c:choose>
+		<c:when test="${ title eq 'about' }">
+    		<title>회사소개 | 선진이엔씨</title>
+		</c:when>
+		<c:when test="${ title eq 'product' }">
+    		<title>제품소개 | 선진이엔씨</title>
+		</c:when>
+		<c:when test="${ title eq 'support' }">
+    		<title>고객지원 | 선진이엔씨</title>
+		</c:when>
+		<c:otherwise>
+			<title>선진이엔씨</title>
+		</c:otherwise>
+	</c:choose>
 	
   </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
+	<!--네이버 지도 API -->
+	<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=hoe2dx88kt"></script>
 	<!-- jquery, boostrap -->
 	<script src="${ pageContext.request.contextPath }/resources/js/jquery-3.5.1.min.js"></script>
 	<script src="${ pageContext.request.contextPath }/resources/js/bootstrap.min.js"></script>

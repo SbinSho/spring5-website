@@ -36,5 +36,4 @@ $(window).resize(function (){ // px단위로 체크 후  id='sup-col' 위에 mar
 
 });	
 </script>
-<br>
 <%@ include file="./inc/footer.jsp" %>
