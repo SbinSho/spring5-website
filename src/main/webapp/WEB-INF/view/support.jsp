@@ -17,8 +17,8 @@
 			  	<div class="col">
 			  		<div class="mt-3">
 						<p><i class="fas fa-phone mr-2"></i><a href="tel:010-6276-0232" class="sup-a"><span class="sup-info">TEL : 052-267-8606</span></a></p>
-						<p><i class="fas fa-fax mr-2"></i><span class="sup-info">FAX : 052-267-8606</span></p>
-						<p><i class="fas fa-envelope mr-2"></i><a href="mailto:tngh234@naver.com" class="sup-a"><span class="sup-info">E-MAIL : suho0232@gmail.com</span></a></p>
+						<p><i class="fas fa-fax mr-2"></i><span class="sup-info">FAX : 052-970-1016</span></p>
+						<p><i class="fas fa-envelope mr-2"></i><a href="mailto:sj8606@gmail.com" class="sup-a"><span class="sup-info">E-MAIL : sj8606@gmail.com</span></a></p>
 						<p><span class="sup-korea-info ko-text">상담시간 : AM 09:00 ~ PM 06 : 00<br><span style="color : red;">토요일</span>, <span style="color : red;">일요일</span>, <span style="color : red;">공휴일</span>은 휴무입니다.</span></p>			
 			  		</div>
 			  	</div>		  						

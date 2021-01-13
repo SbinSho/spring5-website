@@ -47,7 +47,7 @@
 	<meta name="msapplication-TileImage" content="${ pageContext.request.contextPath}/resources/img/favicons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	
-    <title>SUNJIN E&C</title>
+    <title>선진이엔씨</title>
 	
   </head>
 <body>
