@@ -84,18 +84,24 @@ function location_NaverMap() {
 
 }
 
-
-
-$(document).ready(function() { // px단위로 체크 후  id='sup-col' 위에 margin-top 주기 위한 구문
+$(document).ready(function() { 
 	  var width_size = window.outerWidth;
 	  
 	  // 1000 이하인지 if문으로 확인
 	  if (width_size <= 575) {
 		  document.getElementById("sup-col").className = 'col-sm pt-3';
-	  }	
+	  }
+	  
+	  // DOM 객체 생성시 브라우저 체크
+	  var agent = navigator.userAgent.toLowerCase();
+		
+	  // IE 모든 보전 체크 후 해당하면 css 값 조정
+	  if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1) ) {
+		  $(".sup-div").css('height','750px');
+	  }
 });
 
-$(window).resize(function (){ // px단위로 체크 후  id='sup-col' 위에 margin-top 주기 위한 구문
+$(window).resize(function (){ 
 	  // width값을 가져오기
 	  var width_size = window.outerWidth;
 	  
