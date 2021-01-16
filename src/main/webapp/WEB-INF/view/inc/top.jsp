@@ -18,8 +18,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge; chrome=1" />
     
 	<!-- meta 태그 -->
-	<meta name="description" content="밀튼로이 펌프, Milton Roy Pump, 약품정량펌프, 약품주입설비, 수처리기기 , MILTON ROY 한국공식대리점">
-	<meta name="keywords" content="밀튼로이 펌프, Milton Roy Pump, 약품정량펌프, 약품주입설비, 수처리기기 , MILTON ROY 한국공식대리점">
+	<meta name="description" content="밀튼로이 펌프, Milton Roy Pump, LMI pump, WILLIAMS pump, 약품정량펌프, 약품주입설비, 수처리기기 , MILTON ROY 한국공식대리점">
+	<meta name="keywords" content="밀튼로이 펌프, Milton Roy pump, LMI pump, WILLIAMS pump, 약품정량펌프, 약품주입설비, 수처리기기 , MILTON ROY 한국공식대리점">
 	<meta name="title" content="MILTON ROY 한국공식대리점, 선진이엔씨">
 	
 	<!-- og 태그 -->

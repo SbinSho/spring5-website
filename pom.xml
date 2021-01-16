@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>SUNJIN</groupId>
 	<artifactId>SUNJIN</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	
 	<dependencies>
@@ -49,7 +49,11 @@
 			<version>1.2.3</version>
 		</dependency>
 	</dependencies>
-
+	
+<!-- 	<properties> -->
+			<!-- 메이븐 빌드시 타임스탬프 출력 형식 포맷 -->
+<!-- 	    <maven.build.timestamp.format>yyyy-MM-dd</maven.build.timestamp.format> -->
+<!-- 	</properties> -->
 	<build>
 		<plugins>
 			<plugin>
@@ -62,5 +66,10 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		
+<!-- 		<finalName> -->
+				<!-- 빌드시 파일 이름 지정해주기 -->
+<!-- 			${maven.build.timestamp} -->
+<!--         </finalName> -->
 	</build>
 </project>

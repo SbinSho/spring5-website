@@ -27,13 +27,13 @@
 							<div id="carouselExampleIndicators" style="height: 100px !important;" class="carousel slide m-auto" data-ride="carousel">
 							  <div class="carousel-inner">
 							    <div class="carousel-item active text-center">
-							      <img src="${ pageContext.request.contextPath }/resources/img/images1.png" class="footer-partner-img">
+							      <img src="${ pageContext.request.contextPath }/resources/img/images1.png" class="footer-partner-img" alt="Milton roy">
 							    </div>
 							    <div class="carousel-item text-center">
-							      <img src="${ pageContext.request.contextPath }/resources/img/images2.png" class="footer-partner-img">
+							      <img src="${ pageContext.request.contextPath }/resources/img/images2.png" class="footer-partner-img" alt="LMI">
 							    </div>
 							    <div class="carousel-item text-center">
-							      <img src="${ pageContext.request.contextPath }/resources/img/images3.png" class="footer-partner-img">
+							      <img src="${ pageContext.request.contextPath }/resources/img/images3.png" class="footer-partner-img" alt="WILLIAMS">
 							    </div>
 							  </div>
 							  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

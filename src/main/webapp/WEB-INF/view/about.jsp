@@ -7,7 +7,7 @@
 <div class="container pt-5 animation-container">
 	<div class="row">
 		<div class="col-sm">
-			<img src="${ pageContext.request.contextPath }/resources/img/img_intro-big.PNG" id="about-img" class="m-auto d-block img-fluid">		
+			<img src="${ pageContext.request.contextPath }/resources/img/img_intro-big.PNG" id="about-img" class="m-auto d-block img-fluid" alt="회사소개">		
 		</div>
 	</div>
 </div>
