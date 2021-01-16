@@ -18,15 +18,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge; chrome=1" />
     
 	<!-- meta 태그 -->
-	<meta name="description" content="밀튼로이 펌프, Milton Roy Pump, LMI pump, WILLIAMS pump, 약품정량펌프, 약품주입설비, 수처리기기 , MILTON ROY 한국공식대리점">
-	<meta name="keywords" content="밀튼로이 펌프, Milton Roy pump, LMI pump, WILLIAMS pump, 약품정량펌프, 약품주입설비, 수처리기기 , MILTON ROY 한국공식대리점">
+	<meta name="description" content="밀튼로이 펌프, Milton Roy, LMI, WILLIAMS, 약품정량펌프, 약품주입설비, 수처리기기 , MILTON ROY 한국공식대리점">
+	<meta name="keywords" content="밀튼로이 펌프, Milton Roy, LMI, WILLIAMS, 약품정량펌프, 약품주입설비, 수처리기기 , MILTON ROY 한국공식대리점">
 	<meta name="title" content="MILTON ROY 한국공식대리점, 선진이엔씨">
 	
 	<!-- og 태그 -->
 	<meta property="og:title" content="MILTON ROY 한국공식대리점, 선진이엔씨">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="http://www.sunjinenc.co.kr">
-	<meta property="og:description" content="밀튼로이 펌프, Milton Roy Pump, 약품정량펌프, 약품주입설비, 수처리기기, MILTON ROY 한국공식대리점">
+	<meta property="og:description" content="밀튼로이 펌프, Milton Roy, LMI, WILLIAMS, 약품정량펌프, 약품주입설비, 수처리기기, MILTON ROY 한국공식대리점">
 	<meta property="og:image" content="http://www.sunjinenc.co.kr/resources/img/img_logo.PNG">
 	
 	<!-- 구글 검색 등록 -->
@@ -58,16 +58,16 @@
 	<c:set var="title" value="${ title }"/>
 	<c:choose>
 		<c:when test="${ title eq 'about' }">
-    		<title>회사소개 | 선진이엔씨</title>
+    		<title>회사소개 | MILTON ROY 한국공식대리점, 선진이엔씨</title>
 		</c:when>
 		<c:when test="${ title eq 'product' }">
-    		<title>제품소개 | 선진이엔씨</title>
+    		<title>제품소개 | MILTON ROY 한국공식대리점, 선진이엔씨</title>
 		</c:when>
 		<c:when test="${ title eq 'support' }">
-    		<title>고객지원 | 선진이엔씨</title>
+    		<title>고객지원 | MILTON ROY 한국공식대리점, 선진이엔씨</title>
 		</c:when>
 		<c:otherwise>
-			<title>선진이엔씨</title>
+			<title>MILTON ROY 한국공식대리점 | 선진이엔씨</title>
 		</c:otherwise>
 	</c:choose>
 	
