@@ -1,8 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ include file= "./inc/top.jsp" %>
-<div class="index-banner">
-  	<img src="${ pageContext.request.contextPath }/resources/img/home-banner-big.PNG" id="banner-img" class="d-block w-100" style="min-height: 200px;">
+<!-- 윈도우 폰에서 여백 생기는 문제로 img태그가아닌 div태그에 min-height 삽입 -->
+<div class="index-banner" style="min-height: 200px;">
+  	<img src="${ pageContext.request.contextPath }/resources/img/home-banner-big.PNG" id="banner-img" class="d-block w-100">
 </div>
 
 	<!-- index-mid-div start -->
