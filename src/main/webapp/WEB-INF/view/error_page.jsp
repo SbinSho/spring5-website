@@ -12,7 +12,7 @@
 	
 	<h3> 관리자에게 문의하세요. </h3>
 	
-	<a href="${ pageContext.request.contextPath }"> home으로 돌아가기</a> 
+	<a href="http://www.sunjinenc.co.kr"> home으로 돌아가기</a> 
 	<hr>
 	
 	${e.getMessage()}
