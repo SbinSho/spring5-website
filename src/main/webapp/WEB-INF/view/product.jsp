@@ -31,7 +31,7 @@
 	    </div>
 	  </div>
 	  <div class="col-sm mb-4">
-	    <div class="card card-custom" onclick="window.open('https://www.miltonroy.com/en-kr/metering-pumps/primeroyal-series-metering-pumps')">
+	    <div class="card card-custom" onclick="window.open('https://www.miltonroy.com/en-kr/metering-pumps/primeroyal-series')">
 	      <img src="${ pageContext.request.contextPath }/resources/img/Milton_Roy_Products/Primeroyal Series for critical chemical dosing applications.jpg" class="card-img-top" alt="Primeroyal Series.jpg">
 	      <div class="card-body">
 	        <h5 class="card-title">PRIMEROYAL® Series<br>Metering Pumps</h5>
@@ -96,7 +96,7 @@
 	    </div>
 	  </div>
 	  <div class="col-sm mb-4">
-	    <div class="card card-custom" onclick="window.open('https://www.lmipumps.com/en-kr/chemical-metering-pumps/excel-ad-chemical-metering-pumps')">
+	    <div class="card card-custom" onclick="window.open('https://www.lmipumps.com/en/chemical-metering-pumps/excel-ad-chemical-metering-pumps')">
 	      <img src="${ pageContext.request.contextPath }/resources/img/LMI_products/RoytronicExcelAD9-600.jpg" class="card-img-top" alt="RoytronicExcelAD9-600.jpg">
 	      <div class="card-body">
 	        <h5 class="card-title">EXCEL® AD Chemical Metering Pumps</h5>
