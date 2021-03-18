@@ -22,33 +22,53 @@
 
 ### AWS
 
-> EC2 인스턴스 사용
+> 실행중인 EC2 인스턴스
+
+![ec2](https://github.com/SbinSho/YAKBBAL/blob/master/img/ec2.png)
 
 > 배포스크립트 자동화
 
+![배포스크립트](https://github.com/SbinSho/YAKBBAL/blob/master/img/배포스크립트.png)
+
 > ngix 프록시 서버
+
+![nginx](https://github.com/SbinSho/YAKBBAL/blob/master/img/nginx.png)
 
 
 ### 구글 애널리틱스
 
 > 구글 애널리틱스를 이용한 사용자 관리
 
+![google](https://github.com/SbinSho/YAKBBAL/blob/master/img/google.png)
+
+
 
 ### 기본적인 검색 최적화 ( SEO )
 
-> robots.txt
+> sitemap.xml & robots.txt
 
-> sitemap.xml
+* sitmemap
+
+![sitemap](https://github.com/SbinSho/YAKBBAL/blob/master/img/sitemap.png)
+
+* robots
+
+![robots](https://github.com/SbinSho/YAKBBAL/blob/master/img/robots.png)
 
 
 ### 검색 노출
 
 > 네이버
 
+![naver_search](https://github.com/SbinSho/YAKBBAL/blob/master/img/google.png)
+
 > 다음
+
+![daum_search](https://github.com/SbinSho/YAKBBAL/blob/master/img/google.png)
 
 > 구글
 
+![google_search](https://github.com/SbinSho/YAKBBAL/blob/master/img/google.png)
 
 ### 웹 프로젝트 링크
 
