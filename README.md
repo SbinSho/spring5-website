@@ -28,7 +28,7 @@
 
 > 배포스크립트 자동화
 
-![배포스크립트](https://github.com/spring5-website/YAKBBAL/blob/master/img/배포스크립트.png)
+![배포스크립트](https://github.com/spring5-website/spring5-website/blob/master/img/배포스크립트.png)
 
 > ngix 프록시 서버
 
@@ -47,11 +47,11 @@
 
 > sitemap.xml & robots.txt
 
-* sitmemap
+* sitmemap.xml
 
 ![sitemap](https://github.com/SbinSho/spring5-website/blob/master/img/sitemap.png)
 
-* robots
+* robots.txt
 
 ![robots](https://github.com/SbinSho/spring5-website/blob/master/img/robots.png)
 
@@ -60,15 +60,15 @@
 
 > 네이버
 
-![naver_search](https://github.com/SbinSho/spring5-website/blob/master/img/google.png)
+![naver_search](https://github.com/SbinSho/spring5-website/blob/master/img/naver_serach.png)
 
 > 다음
 
-![daum_search](https://github.com/SbinSho/spring5-website/blob/master/img/google.png)
+![daum_search](https://github.com/SbinSho/spring5-website/blob/master/img/daum_search.png)
 
 > 구글
 
-![google_search](https://github.com/SbinSho/spring5-website/blob/master/img/google.png)
+![google_search](https://github.com/SbinSho/spring5-website/blob/master/img/google_serach.png)
 
 ### 웹 프로젝트 링크
 
