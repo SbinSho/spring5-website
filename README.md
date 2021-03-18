@@ -4,7 +4,8 @@
 - 일정 : 2020.12 ~ 2021.01
 <br><br>
 - 프로젝트 목적
-    - java spring으로 구현한 Milton roy 대리점 제품 홍보용 반응형웹 사이트 입니다. 
+    - java spring으로 구현한 Milton roy 대리점 제품 홍보용 반응형웹 사이트 입니다.
+    - Milton roy사의 정량 펌프 제품정보를 소개하기 위한 목적입니다.
 
 ## 프로젝트 정보 :punch:
 
