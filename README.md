@@ -37,7 +37,7 @@
 
 > ngix 프록시 서버
 
-![nginx](https://github.com/SbinSho/spring5-website/blob/master/img/nginx.png)
+![nginx](https://github.com/SbinSho/spring5-website/blob/master/img/nginx_conf.png)
 
 
 ### 구글 애널리틱스
