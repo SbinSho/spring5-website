@@ -28,7 +28,7 @@
 
 > 배포스크립트 자동화
 
-![배포스크립트](https://github.com/spring5-website/spring5-website/blob/master/img/배포스크립트.png)
+![sh](https://github.com/SbinSho/spring5-website/blob/master/img/sh.png)
 
 > ngix 프록시 서버
 
@@ -60,7 +60,7 @@
 
 > 네이버
 
-![naver_search](https://github.com/SbinSho/spring5-website/blob/master/img/naver_serach.png)
+![naver_search](https://github.com/SbinSho/spring5-website/blob/master/img/naver_search.png)
 
 > 다음
 
@@ -68,7 +68,7 @@
 
 > 구글
 
-![google_search](https://github.com/SbinSho/spring5-website/blob/master/img/google_serach.png)
+![google_search](https://github.com/SbinSho/spring5-website/blob/master/img/google_search.png)
 
 ### 웹 프로젝트 링크
 
