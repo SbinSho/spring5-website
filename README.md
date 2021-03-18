@@ -24,22 +24,22 @@
 
 > 실행중인 EC2 인스턴스
 
-![ec2](https://github.com/SbinSho/YAKBBAL/blob/master/img/ec2.png)
+![ec2](https://github.com/SbinSho/spring5-website/blob/master/img/ec2.png)
 
 > 배포스크립트 자동화
 
-![배포스크립트](https://github.com/SbinSho/YAKBBAL/blob/master/img/배포스크립트.png)
+![배포스크립트](https://github.com/spring5-website/YAKBBAL/blob/master/img/배포스크립트.png)
 
 > ngix 프록시 서버
 
-![nginx](https://github.com/SbinSho/YAKBBAL/blob/master/img/nginx.png)
+![nginx](https://github.com/SbinSho/spring5-website/blob/master/img/nginx.png)
 
 
 ### 구글 애널리틱스
 
 > 구글 애널리틱스를 이용한 사용자 관리
 
-![google](https://github.com/SbinSho/YAKBBAL/blob/master/img/google.png)
+![google](https://github.com/SbinSho/spring5-website/blob/master/img/google.png)
 
 
 
@@ -49,26 +49,26 @@
 
 * sitmemap
 
-![sitemap](https://github.com/SbinSho/YAKBBAL/blob/master/img/sitemap.png)
+![sitemap](https://github.com/SbinSho/spring5-website/blob/master/img/sitemap.png)
 
 * robots
 
-![robots](https://github.com/SbinSho/YAKBBAL/blob/master/img/robots.png)
+![robots](https://github.com/SbinSho/spring5-website/blob/master/img/robots.png)
 
 
 ### 검색 노출
 
 > 네이버
 
-![naver_search](https://github.com/SbinSho/YAKBBAL/blob/master/img/google.png)
+![naver_search](https://github.com/SbinSho/spring5-website/blob/master/img/google.png)
 
 > 다음
 
-![daum_search](https://github.com/SbinSho/YAKBBAL/blob/master/img/google.png)
+![daum_search](https://github.com/SbinSho/spring5-website/blob/master/img/google.png)
 
 > 구글
 
-![google_search](https://github.com/SbinSho/YAKBBAL/blob/master/img/google.png)
+![google_search](https://github.com/SbinSho/spring5-website/blob/master/img/google.png)
 
 ### 웹 프로젝트 링크
 
