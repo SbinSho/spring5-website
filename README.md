@@ -27,9 +27,13 @@
 
 ![ec2](https://github.com/SbinSho/spring5-website/blob/master/img/ec2.png)
 
+---
+
 > 배포스크립트 자동화
 
 ![sh](https://github.com/SbinSho/spring5-website/blob/master/img/sh.png)
+
+---
 
 > ngix 프록시 서버
 
@@ -52,6 +56,8 @@
 
 ![sitemap](https://github.com/SbinSho/spring5-website/blob/master/img/sitemap.png)
 
+---
+
 * robots.txt
 
 ![robots](https://github.com/SbinSho/spring5-website/blob/master/img/robots.png)
@@ -63,9 +69,14 @@
 
 ![naver_search](https://github.com/SbinSho/spring5-website/blob/master/img/naver_search.png)
 
+
+---
+
 > 다음
 
 ![daum_search](https://github.com/SbinSho/spring5-website/blob/master/img/daum_search.png)
+
+---
 
 > 구글
 
