@@ -4,8 +4,8 @@
 - 일정 : 2020.12 ~ 2021.01
 <br><br>
 - 프로젝트 목적
-    - java spring으로 구현한 Milton roy 대리점 제품 홍보용 반응형웹 사이트 입니다.
-    - Milton roy사의 정량 펌프 제품정보를 소개하기 위한 목적입니다.
+    - SpringFramework 실습 목적 및 Milton roy 대리점 제품 홍보용
+    - Milton roy사의 정량펌프 제품정보를 소개하기 위한 목적
 
 ## 프로젝트 정보 :punch:
 
@@ -29,13 +29,13 @@
 
 ---
 
-> 배포스크립트 자동화
+> 배포스크립트 자동화 구현
 
 ![sh](https://github.com/SbinSho/spring5-website/blob/master/img/sh.png)
 
 ---
 
-> ngix 프록시 서버
+> ngix 프록시 서버 사용
 
 ![nginx](https://github.com/SbinSho/spring5-website/blob/master/img/nginx_conf.png)
 
