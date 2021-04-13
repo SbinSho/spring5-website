@@ -49,7 +49,7 @@
 	    </div>
 	  </div>
 	  <div class="col-sm mb-4">
-	    <div class="card card-custom" onclick="window.open('https://www.miltonroy.com/en-kr/metering-pumps/mroy-series-metering-pumps')">
+	    <div class="card card-custom" onclick="window.open('https://www.miltonroy.com/en/metering-pumps/mroy-series-metering-pumps')">
 	      <img src="${ pageContext.request.contextPath }/resources/img/Milton_Roy_Products/mRoy Series metering pumps.jpg" class="card-img-top" alt="mRoy Series metering pumps.jpg">
 	      <div class="card-body">
 	        <h5 class="card-title">mROY® Series<br>chemical Pumps</h5>
